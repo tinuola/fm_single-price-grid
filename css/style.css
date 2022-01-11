@@ -32,6 +32,7 @@ body {
   font-family: 'Karla', sans-serif;
   background-color: hsl(204 43% 93%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -182,6 +183,13 @@ button:hover {
 
 
 /* Footer */
-/* .attribution { font-size: 11px; text-align: center; }
+footer {
+  margin-top: 1rem;
+}
+.attribution { 
+  font-size: 11px; 
+}
 
-.attribution a { color: hsl(228, 45%, 44%); } */
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
