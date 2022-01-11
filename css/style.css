@@ -44,6 +44,13 @@ body {
   overflow: hidden;
 }
 
+@media (max-width: 700px){
+  
+  .container {
+    max-width: 320px;
+  }
+}
+
 header {
   background-color: var(--white);
   padding: 2.5rem 2rem 3rem 2.5rem;
@@ -63,6 +70,26 @@ header p {
   color: var(--tertiary-blue);
 }
 
+@media (max-width: 700px){
+  header {
+    padding: 1.5rem 2rem 2rem 1.5rem;
+  }
+
+  header h1 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  header p {
+    font-size: 13px;
+    line-height: 1.75;
+  }
+}
+
 .box-container {
   display: flex;
   width: 100%;
@@ -70,6 +97,12 @@ header p {
   border-bottom-left-radius: .5rem;
   border-bottom-right-radius: .5rem;
   overflow: hidden;
+}
+
+@media (max-width: 700px){
+  .box-container {
+    display: block;
+  }
 }
 
 .box {
@@ -92,6 +125,27 @@ header p {
   color: var(--white);
   margin-right: .5rem;
   vertical-align: middle;
+}
+
+@media (max-width: 700px){
+  .box {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .box h3 {
+    font-size: 16px;
+    margin-bottom: .75rem;
+  }
+
+  .box p {
+    font-size: 13px;
+  }
+
+  .box .text-large {
+    font-size: 1.75rem;
+  }
+
 }
 
 .box .text-light {
