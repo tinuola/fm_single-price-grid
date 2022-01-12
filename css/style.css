@@ -31,11 +31,18 @@ body {
   line-height: 1.5;
   font-family: 'Karla', sans-serif;
   background-color: hsl(204 43% 93%);
+}
+
+main {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 90vh;
+  margin-bottom: 32px; /* Match footer height to create buffer */
+  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
+
 
 .container {
   max-width: 650px;
@@ -46,7 +53,6 @@ body {
 }
 
 @media (max-width: 700px){
-  
   .container {
     max-width: 320px;
   }
@@ -62,9 +68,10 @@ header h1 {
   margin-bottom: 1rem;
 }
 
-header h3 {
+header h2 {
   color: var(--secondary-color);
   margin-bottom: .75rem;
+  font-size: 20px;
 }
 
 header p {
@@ -80,7 +87,7 @@ header p {
     font-size: 20px;
   }
 
-  header h3 {
+  header h2 {
     font-size: 16px;
     margin-bottom: 1rem;
   }
@@ -146,7 +153,6 @@ header p {
   .box .text-large {
     font-size: 1.75rem;
   }
-
 }
 
 .box .text-light {
@@ -181,11 +187,18 @@ button:hover {
   filter:saturate(0.5);
 }
 
-
-/* Footer */
 footer {
-  margin-top: 1rem;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background: white;
+  text-align: right;
+  padding-top: 0.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
 }
+
 .attribution { 
   font-size: 11px; 
 }
