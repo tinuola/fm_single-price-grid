@@ -31,11 +31,18 @@ body {
   line-height: 1.5;
   font-family: 'Karla', sans-serif;
   background-color: hsl(204 43% 93%);
+}
+
+main {
   display: flex;
-  flex-direction: column;
+  min-height: 90vh;
   justify-content: center;
   align-items: center;
+  margin-bottom: 32px; /* Match footer height to create buffer */
+  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
+
 
 .container {
   max-width: 650px;
@@ -46,7 +53,6 @@ body {
 }
 
 @media (max-width: 700px){
-  
   .container {
     max-width: 320px;
   }
@@ -146,7 +152,6 @@ header p {
   .box .text-large {
     font-size: 1.75rem;
   }
-
 }
 
 .box .text-light {
@@ -183,9 +188,19 @@ button:hover {
 
 
 /* Footer */
+
 footer {
-  margin-top: 1rem;
+    text-align: right;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    background: white;
 }
+
 .attribution { 
   font-size: 11px; 
 }
