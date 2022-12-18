@@ -13,7 +13,7 @@ Users should be able to:
 
 ### Solution
 
-Live Site: [https://tinuola.github.io/fm-single-price-grid/](https://tinuola.github.io/fm-single-price-grid/)
+Live Site: [https://tinuola.github.io/fm_single-price-grid/](https://tinuola.github.io/fm_single-price-grid/)
 
 ### Tools
 
