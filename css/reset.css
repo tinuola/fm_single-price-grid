@@ -80,10 +80,10 @@ input {
   appearance: none;
 }
 
-/* Reapply the pointer cursor for anchor and button tags */
+/* Apply the pointer cursor for anchor and button tags */
 a,
 button {
-  cursor: revert;
+  cursor: pointer;
 }
 
 /* Resets animations, transitions and scroll behaviour for if user selects prefers reduced motion */
