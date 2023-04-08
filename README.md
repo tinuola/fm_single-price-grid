@@ -4,7 +4,7 @@ Solution to the _[Single Price Grid Component](https://www.frontendmentor.io/cha
 
 ### Challenge
 
-- Build out a pricing component using provided desktop and mobile designs
+- Build out a pricing component using provided [desktop](/assets/design/desktop-design.jpg) and [mobile](/assets/design/mobile-design.jpg) designs
 - Users should be able to:
   - View the optimal layout for the component depending on their device's screen size
   - See a hover state on desktop for the Sign Up call-to-action
@@ -15,11 +15,11 @@ Live Solution: [https://tinuola.github.io/fm_single-price-grid/](https://tinuola
 
 ### Retrospective
 
--
+- Accessibility contrast errors
 
 ### Potential Enhancement(s)
 
--
+- None planned
 
 ### Tools & Resources
 
