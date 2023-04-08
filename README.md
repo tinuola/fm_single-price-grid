@@ -1,26 +1,29 @@
 # Frontend Mentor: Single Price Grid Component
 
-This is a solution to the **[Single price grid component challenge](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)** on Frontend Mentor. Frontend Mentor challenges help improve coding skills by building realistic projects.
+Solution to the _[Single Price Grid Component](https://www.frontendmentor.io/challenges/single-price-grid-component-5ce41129d0ff452fec5abbbc)_ challenge on Frontend Mentor.
 
 ### Challenge
 
-Build out a pricing component with the designs provided.
-
-Users should be able to:
-
-- View the optimal layout for the component depending on their device's screen size
-- See a hover state on desktop for the Sign Up call-to-action
+- Build out a pricing component using provided desktop and mobile designs
+- Users should be able to:
+  - View the optimal layout for the component depending on their device's screen size
+  - See a hover state on desktop for the Sign Up call-to-action
 
 ### Solution
 
-Live Site: [https://tinuola.github.io/fm_single-price-grid/](https://tinuola.github.io/fm_single-price-grid/)
+Live Solution: [https://tinuola.github.io/fm_single-price-grid/](https://tinuola.github.io/fm_single-price-grid/)
 
-### Tools
+### Retrospective
 
-- Semantic HTML5
-- CSS custom properties
-- Flexbox
+-
 
-### Resources
+### Potential Enhancement(s)
 
+-
+
+### Tools & Resources
+
+- HTML & CSS
 - [A Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
+
+_Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
