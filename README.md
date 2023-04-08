@@ -24,6 +24,6 @@ Live Solution: [https://tinuola.github.io/fm_single-price-grid/](https://tinuola
 ### Tools & Resources
 
 - HTML & CSS
-- [A Modern CSS Reset by Andy Bell](https://piccalil.li/blog/a-modern-css-reset/)
+- CSS Resets
 
 _Visit my [Frontend Mentor profile](https://www.frontendmentor.io/profile/tinuola) to view other challenges I've completed!_
