@@ -18,6 +18,7 @@ Live Solution: [https://tinuola.github.io/fm_single-price-grid/](https://tinuola
 - Very first Frontend Mentor project! 👏🏾 ⭐
 - Straight-forward, simple starter to resume my frontend practice
 - Could not avoid contrast error flags in A11Y audit (WAVE)--the color choices came from the design
+- Refactored a second time around for a mobile-first approach, to clean up redundant CSS, and to rename the box components semantically
 
 ### Enhancement(s)
 

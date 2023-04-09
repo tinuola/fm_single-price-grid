@@ -113,39 +113,39 @@ header p {
   color: var(--tertiary-gray);
 }
 
-.box-left {
+.box__subscription {
   background-color: var(--primary-color);
 }
 
-.box-left p {
+.box__subscription p {
   line-height: 1.625rem;
 }
 
-.box-left p:first-of-type {
+.box__subscription p:first-of-type {
   margin-bottom: 0.5rem;
 }
 
-.box-left p:last-of-type {
+.box__subscription p:last-of-type {
   margin-bottom: 1.625rem;
 }
 
-.box-left span:first-of-type {
+.box__subscription span:first-of-type {
   font-size: 2rem;
   color: var(--white);
   margin-right: 0.75rem;
   vertical-align: middle;
 }
 
-.box-left span:last-of-type {
+.box__subscription span:last-of-type {
   opacity: 0.5;
 }
 
-.box-right {
+.box__benefits-list {
   background-color: var(--primary-color);
   opacity: 0.85;
 }
 
-.box-right li {
+.box__benefits-list li {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
