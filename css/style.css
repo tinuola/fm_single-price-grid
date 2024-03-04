@@ -6,6 +6,11 @@
   --white: #fff;
 }
 
+
+/**********/
+/* Layout */
+/**********/
+
 body {
   font-family: 'Karla', sans-serif;
   font-weight: 400;
@@ -14,8 +19,6 @@ body {
   grid-template-rows: 1fr auto;
 }
 
-/* Layout */
-
 main {
   display: flex;
   justify-content: center;
@@ -23,7 +26,12 @@ main {
   padding: 4rem 0 4rem;
 }
 
-.container {
+
+/*************/
+/* Component */
+/*************/
+
+.component {
   max-width: 310px;
   width: 100%;
   border-radius: 0.25rem;
@@ -36,7 +44,7 @@ main {
 }
 
 @media (min-width: 699px) {
-  .container {
+  .component {
     max-width: 635px;
     border-radius: 0.5rem;
   }
@@ -126,18 +134,14 @@ header p {
 }
 
 .box__subscription p:last-of-type {
-  margin-bottom: 1.625rem;
+  margin-bottom: 2.25rem;
 }
 
 .box__subscription span:first-of-type {
   font-size: 2rem;
   color: var(--white);
-  margin-right: 0.75rem;
+  margin-right: 0.5rem;
   vertical-align: middle;
-}
-
-.box__subscription span:last-of-type {
-  opacity: 0.5;
 }
 
 .box__benefits-list {
@@ -146,8 +150,8 @@ header p {
 }
 
 .box__benefits-list li {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  font-size: 0.975rem;
+  line-height: 1.35rem;
 }
 
 @media (min-width: 699px) {
@@ -170,24 +174,27 @@ button {
   padding: 1rem;
   letter-spacing: 1px;
   box-shadow: 1px 16px 18px -4px rgb(0 0 0 / 15%);
+  transition: transform 0.2s ease-in-out;
+  
 }
 
 button:hover {
-  position: relative;
-  top: 1px;
+  transform: scale(0.95);
   background-color: var(--tertiary-gray);
   color: var(--primary-color);
 }
 
+
+/**********/
 /* Footer */
+/**********/
 
 .fm-byline-row {
-  padding: 0.5rem 0;
-  background-color: var(--white);
+  padding: 0 0 1rem 0;
 }
 
 .fm-byline {
-  font-size: 0.75rem;
+  font-size: 0.825rem;
   letter-spacing: 1px;
   text-align: center;
 }
